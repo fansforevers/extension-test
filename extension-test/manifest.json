@@ -1,0 +1,19 @@
+﻿{
+  "name": "[DevMode] Extension Test",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Extension Test",
+
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "16": "img/icon.png",
+    "48": "img/icon.png",
+    "128": "img/icon.png"
+  },
+  "permissions": ["activeTab", "alarms", "storage", "tabs"],
+  "action": {
+    "default_icon": "img/icon.png",
+    "default_title": "Extension Test",
+    "default_popup": "main/index.html"
+  }
+}
